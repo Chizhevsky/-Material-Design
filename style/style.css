@@ -1,0 +1,88 @@
+/* Header */
+#header {
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 50px 0;
+  background-color: #ad1457;
+}
+
+#header .row {
+  margin: 0;
+}
+
+#header .row h1 {
+  color: white;
+}
+
+/* Main */
+#main {
+  margin: 0;
+  width: 100%;
+  background-color: #fce4ec;
+  padding-bottom: 30px;
+}
+
+#main .row #side-bar {
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+@media (max-width: 768px) {
+  #main .row #side-bar {
+    padding-right: 30px;
+  }
+}
+
+#main .row #side-bar .nav-pills li a {
+  color: #e91e63;
+}
+
+#main .row #side-bar .nav-pills li.active a {
+  background-color: #ad1457;
+  color: white;
+}
+
+#main .row #side-bar .nav-pills li.active a:hover {
+  background-color: #e91e63;
+  color: white;
+}
+
+#main .row #side-bar .nav-pills li a:hover {
+  background-color: #ec407a;
+  color: white;
+}
+
+#main .row #for-articles {
+  padding-top: 10px;
+}
+
+/* Footer */
+#footer {
+  background-color: #e91e63;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  #footer {
+    height: 120px;
+    padding-top: 20px
+  }
+}
+
+#footer .row span {
+  font-size: 20px;
+  color: white;
+}
+
+#footer .row a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer .row a:hover {
+  border-bottom: 2px solid white;
+}
